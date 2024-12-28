@@ -7,27 +7,37 @@
 
 body {
   font-family: Poppins;
+  margin: 0.75rem;
+  padding: 0.75rem;
 }
 
-ul {
-  padding: 0;
-  list-style-type: none;
+h1 {
+  color: rgba(255, 51, 238, 0.9333333333);
 }
 
 a {
-  text-decoration: none;
+  color: #1ac888;
 }
 
-hr {
-  border: 0;
-  border-top: 1px dotted #efefef;
+.test {
+  color: rgba(255, 51, 238, 0.9333333333);
 }
 
-img {
-  max-width: 100%;
+.card {
+  display: block;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
 }
-
-h1 a {
-  color: red;
-  background-color: green;
+.card .card-title {
+  font-size: 1.5rem;
+  padding-bottom: 0.75rem;
+  font-weight: bold;
+}
+.card .card-body {
+  font-size: 0.75rem;
+}
+.card a {
+  text-decoration: underline;
 }

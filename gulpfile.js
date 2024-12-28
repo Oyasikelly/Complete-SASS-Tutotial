@@ -4,7 +4,7 @@ const sass = require("gulp-sass")(require("sass"));
 // Define paths for better scalability
 const paths = {
   styles: {
-    src: "./*.scss", // All SCSS files in the current folder
+    src: "shinobi/**/*.scss", // All SCSS files in the current folder
     dest: "./css", // Output CSS folder
   },
 };
